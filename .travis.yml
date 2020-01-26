@@ -2,7 +2,10 @@ language: android
 dist: trusty
 before_install:
   cd Converter
-install: ant deps
+addons:
+  apt:
+    packages:
+      ant
 android:
   components:
     # Uncomment the lines below if you want to
