@@ -1,5 +1,7 @@
 language: android
 dist: trusty
+before_install:
+  cd Converter
 android:
   components:
     # Uncomment the lines below if you want to
